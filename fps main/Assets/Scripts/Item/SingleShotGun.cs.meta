@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c83f58909e3c42d42892532363746ad0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - itemInfo: {instanceID: 0}
+  - itemGameObject: {instanceID: 0}
+  - bulletImpactPrefab: {instanceID: 0}
+  - cam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
