@@ -480,7 +480,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 14922,
+      "PayloadLength": 15338,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -582,22 +582,22 @@
         "D:/Unity/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "D:/Unity/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "D:/Unity/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "D:/Unity/Projects/fps main/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
-        "D:/Unity/Projects/fps main/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "D:/Unity/Projects/fps main/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
         "D:/Unity/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
         "D:/Unity/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
         "D:/Unity/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
@@ -1503,7 +1503,7 @@
       "DisplayName": "Copying Assembly-CSharp-firstpass.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Assembly-CSharp-firstpass.dll"
@@ -1515,7 +1515,7 @@
       "DisplayName": "Copying Assembly-CSharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Assembly-CSharp.dll"
@@ -1527,7 +1527,7 @@
       "DisplayName": "Copying Unity.Postprocessing.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.Postprocessing.Runtime.dll"
@@ -1539,7 +1539,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Core.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.VisualScripting.Core.dll"
@@ -1551,7 +1551,7 @@
       "DisplayName": "Copying UnityEngine.UI.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/UnityEngine.UI.dll"
@@ -1563,7 +1563,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.VisualScripting.Flow.dll"
@@ -1575,7 +1575,7 @@
       "DisplayName": "Copying PhotonRealtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/PhotonRealtime.dll"
@@ -1587,7 +1587,7 @@
       "DisplayName": "Copying PhotonChat.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/PhotonChat.dll"
@@ -1599,7 +1599,7 @@
       "DisplayName": "Copying Unity.Timeline.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.Timeline.dll"
@@ -1611,7 +1611,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/PhotonUnityNetworking.dll"
@@ -1623,7 +1623,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.Utilities.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/PhotonUnityNetworking.Utilities.dll"
@@ -1635,7 +1635,7 @@
       "DisplayName": "Copying Unity.TextMeshPro.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.TextMeshPro.dll"
@@ -1647,7 +1647,7 @@
       "DisplayName": "Copying Unity.VisualScripting.State.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.VisualScripting.State.dll"
@@ -1659,7 +1659,7 @@
       "DisplayName": "Copying websocket-sharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/websocket-sharp.dll"
@@ -1671,7 +1671,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
@@ -1683,7 +1683,7 @@
       "DisplayName": "Copying Photon3Unity3D.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Photon3Unity3D.dll"
@@ -2763,7 +2763,7 @@
       "DisplayName": "Copying Assembly-CSharp-firstpass.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Assembly-CSharp-firstpass.pdb"
@@ -2775,7 +2775,7 @@
       "DisplayName": "Copying Assembly-CSharp.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Assembly-CSharp.pdb"
@@ -2787,7 +2787,7 @@
       "DisplayName": "Copying Unity.Postprocessing.Runtime.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.Postprocessing.Runtime.pdb"
@@ -2799,7 +2799,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Core.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.VisualScripting.Core.pdb"
@@ -2811,7 +2811,7 @@
       "DisplayName": "Copying UnityEngine.UI.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/UnityEngine.UI.pdb"
@@ -2823,7 +2823,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Flow.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.VisualScripting.Flow.pdb"
@@ -2835,7 +2835,7 @@
       "DisplayName": "Copying PhotonRealtime.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/PhotonRealtime.pdb"
@@ -2847,7 +2847,7 @@
       "DisplayName": "Copying PhotonChat.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/PhotonChat.pdb"
@@ -2859,7 +2859,7 @@
       "DisplayName": "Copying Unity.Timeline.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.Timeline.pdb"
@@ -2871,7 +2871,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/PhotonUnityNetworking.pdb"
@@ -2883,7 +2883,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.Utilities.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/PhotonUnityNetworking.Utilities.pdb"
@@ -2895,7 +2895,7 @@
       "DisplayName": "Copying Unity.TextMeshPro.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.TextMeshPro.pdb"
@@ -2907,7 +2907,7 @@
       "DisplayName": "Copying Unity.VisualScripting.State.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Unity.VisualScripting.State.pdb"
@@ -2919,7 +2919,7 @@
       "DisplayName": "Copying Photon3Unity3D.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Projects/fps main/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
+        "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
       ],
       "Outputs": [
         "D:/Games/V0.0.33 Build/Counter Grib_Data/Managed/Photon3Unity3D.pdb"
@@ -2930,7 +2930,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 15094,
+      "PayloadOffset": 15510,
       "PayloadLength": 23,
       "PayloadDebugContentSnippet": "Gribovar C\nCounter Grib",
       "Inputs": [],
@@ -3625,6 +3625,54 @@
       "File": "D:/Games/V0.0.33 Build/UnityCommon.props"
     },
     {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
+    },
+    {
+      "File": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.pdb"
+    },
+    {
       "File": "D:/Unity/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.pdb"
     },
     {
@@ -3901,54 +3949,6 @@
       "File": "D:/Unity/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/Data/Resources"
     },
     {
-      "File": "D:/Unity/Projects/fps main/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
-    },
-    {
-      "File": "D:/Unity/Projects/fps main/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.pdb"
-    },
-    {
       "File": "Library/Bee/Playerbe451a08-inputdata.json"
     }
   ],
@@ -4019,6 +4019,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/Playerbe451a08.dag.json",
-  "PayloadsFile": "D:/Unity/Projects/fps main/Library/Bee/Playerbe451a08.dag.payloads",
+  "PayloadsFile": "D:/GitHubReps/test1/gribovar-simple-fpsgame/fps main/Library/Bee/Playerbe451a08.dag.payloads",
   "RelativePathToRoot": "../.."
 }

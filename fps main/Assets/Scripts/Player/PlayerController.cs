@@ -38,6 +38,10 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageble
     const float maxHealth = 100f;
     float currentHealth = maxHealth;
 
+    //[SerializeField] float walkkSpeed, maxVelocityChange;
+    
+    //private Vector2 input;
+
 
     void Awake()
     {
@@ -75,6 +79,9 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageble
         Move();
         Jump();
 
+        //input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        //input.Normalize();
+
         for (int i = 0; i < items.Length; i++)
         {
             if (Input.GetKeyDown((i + 1).ToString()))
@@ -102,6 +109,7 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageble
         {
             Die();
         }
+        
     }
 
 
@@ -109,8 +117,10 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageble
     {
         if (!PV.IsMine)
             return;
-
+        //rb.AddForce(CalculateMovement(walkkSpeed), ForceMode.VelocityChange);
         rb.MovePosition(rb.position + transform.TransformDirection(moveAmount) * Time.fixedDeltaTime);
+        
+
     }
     
     void Look()
@@ -122,6 +132,32 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageble
 
         cameraHolder.transform.localEulerAngles = Vector3.left * verticalLookRotation;
     }
+    /*
+    Vector3 CalculateMovement(float _speed)
+    {
+        Vector3 targetVelocity = new Vector3(input.x, 0, input.y);
+        targetVelocity = transform.TransformDirection(targetVelocity);
+        targetVelocity *= _speed;
+
+        Vector3 velocity = rb.velocity;
+
+        if(input.magnitude > 0.5f)
+        {
+            Vector3 velocityChange = targetVelocity - velocity;
+            velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelocityChange, maxVelocityChange);
+            velocityChange.z = Mathf.Clamp(velocityChange.z, -maxVelocityChange, maxVelocityChange);
+
+            velocityChange.y = 0;
+
+            return (velocityChange);
+        
+        }
+        else
+        {
+            return new Vector3();
+        }
+    }
+    */
 
     void Move()
     {
@@ -137,6 +173,7 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageble
             rb.AddForce(transform.up * jumpForce);
         }
     }
+  
 
     void EquipItem(int _index)
     {
@@ -186,15 +223,13 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageble
 
     public void TakeDamage(float damage)
     {
-        PV.RPC("RPC_TakeDamage",  RpcTarget.All, damage);
+        PV.RPC("RPC_TakeDamage",  PV.Owner, damage);
     }
 
 
     [PunRPC]
-    void RPC_TakeDamage(float damage)
+    void RPC_TakeDamage(float damage, PhotonMessageInfo info)
     {
-        if (!PV.IsMine) return;
-
         currentHealth -=damage;
 
         healthText.text = currentHealth.ToString();;
@@ -202,6 +237,8 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageble
         if (currentHealth <= 0)
         {
             Die();
+            PlayerManager.Find(info.Sender).GetKill();
+            Debug.LogFormat("Info: {0} {1} {2}", info.Sender, info.photonView, info.SentServerTime);
         }
     }
 

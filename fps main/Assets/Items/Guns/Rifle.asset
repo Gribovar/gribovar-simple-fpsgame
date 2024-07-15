@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Rifle
   m_EditorClassIdentifier: 
   itemName: Rifle
+  type: ranged
   damage: 30
   RoF: 0.24
   magSize: 30
   maxAmmo: 90
   reloadTime: 2
   switchTime: 3
+  maxDistance: 999999

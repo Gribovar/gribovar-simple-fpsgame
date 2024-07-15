@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Pistol
   m_EditorClassIdentifier: 
   itemName: Pistol
+  type: ranged
   damage: 21
   RoF: 0.4
   magSize: 12
   maxAmmo: 36
   reloadTime: 1
   switchTime: 2
+  maxDistance: 999999

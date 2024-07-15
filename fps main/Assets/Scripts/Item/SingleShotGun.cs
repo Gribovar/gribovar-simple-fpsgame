@@ -10,6 +10,7 @@ public class SingleShotGun : Gun
 
     [SerializeField] TMP_Text currentAmmoText;
     [SerializeField] TMP_Text totalAmmoText;
+    [SerializeField] GameObject AmmoUI;
 
     [SerializeField] Camera cam;
 
@@ -43,6 +44,8 @@ public class SingleShotGun : Gun
         mag = ((GunInfo)itemInfo).magSize;
         totalAmmo = ((GunInfo)itemInfo).maxAmmo;
 
+        
+
         currentAmmo = mag;
 
         currentAmmoText.text = currentAmmo.ToString();
@@ -56,6 +59,17 @@ public class SingleShotGun : Gun
     {
         currentAmmoText.text = currentAmmo.ToString();
         totalAmmoText.text = totalAmmo.ToString();
+        if(((GunInfo)itemInfo).type != "melee")
+        {
+            AmmoUI.SetActive(true);
+            Debug.Log(((GunInfo)itemInfo).type);
+        }
+        else
+        {
+            AmmoUI.SetActive(false);
+            Debug.Log(((GunInfo)itemInfo).type);
+        
+        }
 
     }
 
@@ -112,7 +126,7 @@ public class SingleShotGun : Gun
                 {
                     PV.RPC("RPC_PlayGunSound", RpcTarget.All);
                 }
-                if (Physics.Raycast(ray, out RaycastHit hit))
+                if (Physics.Raycast(ray, out RaycastHit hit, ((GunInfo)itemInfo).maxDistance))
                 {
                     
                     hit.collider.gameObject.GetComponent<IDamageble>()?.TakeDamage(((GunInfo)itemInfo).damage); 

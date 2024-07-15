@@ -377,6 +377,8 @@
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Scripts/Interface/Billboard.cs"
 "Assets/Scripts/Interface/IDamageble.cs"
+"Assets/Scripts/Interface/ScoreboardController.cs"
+"Assets/Scripts/Interface/ScoreboardItem.cs"
 "Assets/Scripts/Interface/UsernameDisplay.cs"
 "Assets/Scripts/Item/Gun.cs"
 "Assets/Scripts/Item/GunInfo.cs"

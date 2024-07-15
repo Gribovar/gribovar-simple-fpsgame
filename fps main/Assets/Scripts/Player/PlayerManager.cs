@@ -14,6 +14,8 @@ public class PlayerManager : MonoBehaviour
 
     GameObject controller;
 
+    int kills, deaths;
+
     void Awake()
     {
         PV = GetComponent<PhotonView>();
@@ -38,11 +40,32 @@ public class PlayerManager : MonoBehaviour
     {
         PhotonNetwork.Destroy(controller);
         CreateController();
+
+        deaths++;
+
+        Hashtable hash = new Hashtable();
+        hash.Add("deaths", deaths);
+        PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
     }
 
     public static PlayerManager Find(Player player)
 	{
 		return FindObjectsOfType<PlayerManager>().SingleOrDefault(x => x.PV.Owner == player);
 	}
+    public void GetKill()
+    {
+        PV.RPC("RPC_GetKill", PV.Owner);
+    }
+
+    [PunRPC]
+    void RPC_GetKill()
+    {
+        kills++;
+
+        Hashtable hash = new Hashtable();
+        hash.Add("kills", kills);
+        PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
+
+    }
 
 }
